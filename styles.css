@@ -1,0 +1,174 @@
+body {
+    height: auto;
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+}
+
+.desktop-hero {
+    display: none;
+}
+
+main .logo {
+    display: none;
+}
+
+.logo {
+    margin-left: 32px;
+    margin-top: 31px;
+}
+
+.hero-mob {
+    margin-top: 32px;
+    width: 100%;
+}
+
+main {
+    padding: 64px 32px;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 10.825397491455078px;
+    text-align: center;
+}
+
+.firsth1 {
+    font-weight: 300;
+    color: rgba(206, 152, 152, 1);
+}
+
+.secondh1 {
+    font-weight: 600;
+    color: rgba(66, 58, 58, 1);
+    margin-bottom: 16px;
+}
+
+.description {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(206, 152, 152, 1);
+}
+
+.form {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding:0px 0px 0px 24px;
+    border-radius: 28px;
+    border: 1px solid #CE9898;
+    height: 48px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+input:focus {
+    outline: 2px solid #F96464;
+}
+
+.submit {
+    transform: translate(2px, -50px);
+    align-self:flex-end;
+    height: 50px;
+    padding: 0px;
+    border-radius: 28px;
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    box-shadow: 0px 15px 20px 0px #C66E6E3F;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid #CE9898;
+    width: 20.5%;
+}
+
+.submit img {
+    height: 17.67131805419922px;
+    width: 8.83565902709961px;
+
+}
+
+::placeholder {
+    color: #CE9898;
+}
+
+.submit:hover {
+    cursor: pointer;
+    box-shadow: 0px 15px 20px 0px #C66E6E3F;
+}
+
+@media screen and (min-width: 1200px) {
+    header {
+        display: none;
+    }
+
+    .hero-mob {
+        display: none;
+    }
+
+    body {
+        background-image: url(./images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: 1.3fr 1fr;
+        background-size: cover;
+    }
+
+    main .logo {
+        display: block;
+        margin: 0px 0px 139px 0px;
+    }
+
+    .firsth1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 64px;
+        font-weight: 300;
+        line-height: 64px;
+        letter-spacing: 17.320634841918945px;
+        text-align: left;
+    }
+
+    .secondh1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 71px;
+        letter-spacing: 17.320634841918945px;
+        text-align: left;
+    }
+
+    .description {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    main {
+        padding: 74px 220px 152px 165px;
+        width: 50%;
+    }
+
+    .desktop-hero {
+        width: 100%;
+        display: block;
+    }
+
+    .desktop-hero img {
+        object-fit: fill;
+        height: 100vh;
+        width: 100%;
+    }
+}
