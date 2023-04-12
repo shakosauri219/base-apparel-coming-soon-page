@@ -148,8 +148,8 @@ input:focus {
         flex-direction: column;
         padding: 0px;
         padding-left: 20%;
+        padding-right: 20%;
         align-items: flex-start;
-        width: 71%;
     }
 
     .text h1 {
@@ -171,8 +171,11 @@ input:focus {
         width: 100%;
     }
 
-    .desktop-img {
+    .desktop-img{
         display: flex;
+    }
+
+    .desktop-img img {
         object-fit: cover;
     }
 }
